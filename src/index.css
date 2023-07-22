@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section.ant-layout {
+  background-color: #fff;
+}
+
+a.brand-logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #152c5b;
+}
+
+a.brand-logo span {
+  color: #3252df;
+}
+
+h1.ant-typography,
+h2.ant-typography,
+h3.ant-typography,
+h4.ant-typography,
+h5.ant-typography,
+h6.ant-typography {
+  margin: 0;
+  font-weight: 500;
+  color: #152c5b;
+}
+
+button.ant-btn.ant-btn-primary {
+  /* padding: 10px 28px; */
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button.ant-btn {
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-detail,
+.btn-edit,
+.btn-delete,
+.btn-kembali {
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-detail {
+  background-color: #0dcaf0;
+  color: #0d0d0d;
+}
+
+.btn-detail:hover {
+  background-color: #31d2f2;
+  color: inherit;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: #0d0d0d;
+}
+
+.btn-edit:hover {
+  background-color: #ffca2c;
+  color: inherit;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background-color: #bb2d3b;
+  color: #fff;
+}
+
+.btn-kembali {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-kembali:hover {
+  background-color: #6f7880;
+  color: #fff;
+}

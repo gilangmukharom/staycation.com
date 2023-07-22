@@ -1,0 +1,42 @@
+section#customer-all-room {
+  padding: 50px 0;
+}
+
+section#customer-all-room .card-list-room {
+  border-radius: 16px;
+}
+
+section#customer-all-room .card-list-room .ant-card-cover img {
+  margin: 8px auto;
+  width: calc(100% - 16px);
+  height: 180px;
+  border-radius: 8px;
+}
+
+section#customer-all-room .card-list-room .ant-card-body {
+  padding: 12px;
+}
+
+section#customer-all-room .card-list-room .ant-card-meta-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #152c5b;
+}
+
+section#customer-all-room .card-list-room .ant-card-meta-description {
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22.5px;
+}
+
+section#customer-all-room .card-list-room .price {
+  font-weight: 300;
+  color: #152c5b;
+}
+
+section#customer-all-room .card-list-room .price span {
+  font-weight: 600;
+}
